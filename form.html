@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=for, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+    </style>
+ </head>
+ <body>
+    <form action="#" method="#">
+         <!-- Your Address-->
+        <fieldset>
+            <legend>Your Address</legend>
+        
+            <p>
+                <label for="Firstname">First name</label>
+                <input type="text" id="First Name">
+            </p>
+            <p>
+                <label for="Lastname">Last name</label>
+                <input type="text" id="Last Name">
+            </p>
+        
+            <label for="Street">Street</label>
+            <input type="text" id="Street">
+            </p>
+            <p>
+                <label for="City">City</label>
+                <input type="text" id="City">
+            </p>
+        </fieldset>
+
+                <!-- Additional details-->
+                    <fieldset>
+                        <legend>Additional details</legend>
+                        <p>
+                            <label for="Biography">Biography</label>
+                            <textarea name="Biography" id="Biography" cols="20" rows="2" max leghth 85></textarea>
+                        </p>
+                        <p>
+                            <label for="image">Image</label>
+                            <input type="file" id="image" placeholder="Choose file">
+                    
+                        </p>
+                        <p>
+                            <label for="Age Group">Age Group</label>
+                            <input type="number" id="number" min="0 year" max="9 year" placeholder="0 to 9 years" step="1">
+                        </p>
+                    </fieldset>
+
+                    <!-- Interest-->
+            <fieldset>
+                <legend>Interest</legend>
+
+            
+                <p>
+                    <label for="Hobbies">Hobbies</label>
+                    <select name="Hobbies" id="Hobbies" size="4">
+                     <option value="Playing soccer">Playing soccer</option>
+                     <option value="Dancing">Dancing</option>
+                     <option value="Gardening">Gardening</option>
+                     <option value="Watching movies">Watching</option>
+                     <option value="Singing">Singing</option>
+                     <option value="Reading">Reading</option>   
+                    </select>
+                   
+                     
+                </p>
+                <p>
+                    <label for="Favorite car">Favorite car?</label>
+                    <select name="Favorite car?" id="Favorite car" >
+                        <option value="Volvo">Volvo</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Honda">Honda</option>
+                        <option value="Kia">Kia</option>
+                        <option value="Benz">Benz</option>    
+                       </select>
+                      
+                </p>
+                <p>
+                    <label for="Favorite public transport">Favorite public transport?</label>
+                    <select name="Favorite public transport?" id="Favorite public transport" size="4">
+                        <optgroup label="Ground">
+                            <option value="Train">Train</option>
+                            <option value="Bus">Bus</option>
+                        <optgroup label="Water">
+                            <option value="Boat">Boat</option>
+                            <option value="ship">Ship</option>
+                    </select>
+                      
+                </p>
+            </fieldset>   
+    </form>
+ </body>
+ </html>
